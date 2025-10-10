@@ -2,7 +2,7 @@
 Projekt prostego sterownika szklarni
 
 ## 📷 Zdjęcia
-![Płytka PCB](images/pcb.jpg)
+![Płytka PCB](images/greenhouse_MJR.png)
 
 ## ⚙️ Użyte komponenty
 - ATmega328P  w układzie arduino
