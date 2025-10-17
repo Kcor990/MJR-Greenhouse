@@ -28,7 +28,7 @@ Projekt został zaprojektowany z myślą o zastosowaniach hobbystycznych i pół
 ## 📷 Zdjęcia
 ![Płytka PCB](images/greenhouse_MJR.PNG)
 
-
+![Schemat blokowy](images/photo1.JPG)
 
 
 
