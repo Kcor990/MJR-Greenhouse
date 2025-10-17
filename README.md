@@ -30,7 +30,7 @@ Projekt został zaprojektowany z myślą o zastosowaniach hobbystycznych i pół
 
 ![Schemat blokowy](images/photo1.JPG)
 
-
+![Próbki testowe #004](images/photo2.JPG)
 
 
 
