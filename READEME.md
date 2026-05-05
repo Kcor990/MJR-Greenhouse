@@ -1,28 +1,27 @@
-# 🌿 Sterownik szklarni – system automatyki oparty na mikrokontrolerze
+# 🌿 Climate controller greenhouse based on Atmega pro mini
 
-## 📌 Opis projektu
-Sterownik szklarni to projekt systemu automatyki mikroklimatu, który umożliwia pomiar i kontrolę warunków w szklarni. Urządzenie mierzy temperaturę, wilgotność powietrza oraz wilgotność gleby, a następnie steruje wentylacją i nawadnianiem za pomocą przekaźników. Informacje są prezentowane na wyświetlaczu LCD.
+## 📌 Description
+Climate controller is a project for automating climate inside greenhouse. There's main features: measure and control enviroment inside (temperature and humidity), soil humidity and can control outputs for irrigation system with internal clock. Data is stored on SD card and are show on LCD screen.
+Based on indoor growing controller I evolve project for greenhouse option which will be supply from batteries system with solar panels.
 
-Projekt został zaprojektowany z myślą o zastosowaniach hobbystycznych i półprofesjonalnych w ogrodnictwie.
 
-## 🧠 Funkcje
-- Pomiar temperatury i wilgotności powietrza (czujnik DHT22)
-- Pomiar wilgotności gleby (czujniki analogowe)
-- Sterowanie wentylacją (przekaźnik)
-- Sterowanie nawadnianiem (przekaźnik)
-- Wyświetlacz LCD (I2C) do prezentacji danych
-- 4 wyjścia przekaźnikowe do sterowania urządzeniami
-- Możliwość rozbudowy o dodatkowe czujniki i funkcje
-- Zegar RTC (I2C)
 
-## 🛠️ Technologie
-- **Mikrokontroler**: Arduino
-- **Czujniki**: DHT22, pojemnościowe czujniki wilgotności gleby
-- **Komunikacja**: UART, I2C
-- **Wyświetlacz**: LCD 16x2 z konwerterem I2C
-- **Sterowanie**: Moduły przekaźnikowe 5V
-- **Projekt PCB**: KiCad
-- **Programowanie**: C/C++ (Arduino IDE)
+## 🧠 Features
+- Temperature and humidity measurement (currently tested sensors SHT40)
+- Soil moisure measurement (cheap capacitive soil sensors)
+- Fan controlling with PWM pulse
+- Irrigation controlling with relays and transistors,
+- LCD screen for basic info
+- 4 relays outputs for example additional light, irrigation sectors,
+- RTC with internal clock (I2C)
+
+## 🛠️ Tech
+- **Microcontroller**: Arduino, currently migration to ESP32 S3
+- **Sensors**: DHT22/ SHT40, capacitive soil sensors
+- **Interfaces**: UART, I2C
+- **Screen**: LCD 16x2 z konwerterem I2C
+- **PCB project**: KiCad
+- **Programowanie**: C/C++ (Arduino IDE)/ VS Code
 
 
 
