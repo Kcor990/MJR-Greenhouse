@@ -1,4 +1,4 @@
-# 🌿 Climate controller greenhouse based on Atmega pro mini
+# 🌿 Climate controller greenhouse based on Atmega pro mini a
 
 ## 📌 Description
 Climate controller is a project for automating climate inside greenhouse. There's main features: measure and control enviroment inside (temperature and humidity), soil humidity and can control outputs for irrigation system with internal clock. Data is stored on SD card and are show on LCD screen.
