@@ -4,7 +4,7 @@
 Climate controller is a project for automating climate inside greenhouse. There's main features: measure and control enviroment inside (temperature and humidity), soil humidity and can control outputs for irrigation system with internal clock. Data is stored on SD card and are show on LCD screen.
 Based on indoor growing controller I evolve project for greenhouse option which will be supply from batteries system with solar panels.
 
-
+![PCB Visualization](images/greenhouse_MJR.PNG)
 
 ## 🧠 Features
 - Temperature and humidity measurement (currently tested sensors SHT40)
